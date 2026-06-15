@@ -1,0 +1,56 @@
+# ============================================================
+# config.yaml — Central configuration for Uber Stock Analysis
+# ============================================================
+
+project:
+  name: "Uber Stock Price Analysis & Forecasting"
+  version: "1.0.0"
+  author: "Shivarchan C"
+  student_id: "23BTRDC040"
+  institution: "JAIN (Deemed-to-be University)"
+  department: "B.Tech CSE – Data Science"
+
+data:
+  raw_path: "data/raw/uber_stock_data.csv"
+  processed_path: "data/processed/uber_processed.csv"
+  ticker: "UBER"
+  date_column: "Date"
+  target_column: "Close"
+  start_date: "2019-05-10"
+  end_date: "2025-02-05"
+
+preprocessing:
+  fill_method: "ffill"           # Forward-fill for missing Volume
+  rolling_windows: [30, 90]      # Days for moving averages
+  resample_freq: "ME"            # Month-End for aggregation
+
+forecasting:
+  arima:
+    max_p: 5
+    max_q: 5
+    max_d: 2
+    stepwise: true
+    information_criterion: "aic"
+    seasonal: false
+  prophet:
+    daily_seasonality: true
+    weekly_seasonality: true
+    yearly_seasonality: true
+    forecast_horizon_days: 180
+    uncertainty_samples: 1000
+
+evaluation:
+  metrics: ["RMSE", "MAE", "MAPE", "R2"]
+  test_size: 0.2                 # 20% of data for test split
+  cv_folds: 5
+
+outputs:
+  plots_dir: "outputs/plots"
+  reports_dir: "outputs/reports"
+  models_dir: "models"
+  logs_dir: "logs"
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s — %(name)s — %(levelname)s — %(message)s"
+  log_file: "logs/pipeline.log"

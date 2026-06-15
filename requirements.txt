@@ -1,0 +1,37 @@
+# ============================================================
+# requirements.txt — Uber Stock Analysis & Forecasting Project
+# Python 3.12 compatible | Pinned for reproducibility
+# ============================================================
+
+# Core data manipulation
+pandas==2.2.2
+numpy==1.26.4
+
+# Visualisation
+matplotlib==3.9.0
+seaborn==0.13.2
+plotly==5.22.0
+
+# Statistical modelling & time series
+statsmodels==0.14.2
+pmdarima==2.0.4
+
+# Facebook Prophet (Meta)
+prophet==1.1.5
+
+# Machine learning utilities
+scikit-learn==1.5.0
+
+# Configuration
+PyYAML==6.0.1
+
+# Notebook support
+notebook==7.2.1
+ipykernel==6.29.4
+nbformat==5.10.4
+
+# Utilities
+python-dateutil==2.9.0
+pytz==2024.1
+tqdm==4.66.4
+joblib==1.4.2
