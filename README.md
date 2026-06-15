@@ -234,9 +234,8 @@ jupyter notebook notebooks/Uber_Stock_Analysis_Complete.ipynb
 B.Tech CSE – Data Science | Student ID: 23BTRDC040  
 JAIN (Deemed-to-be University), Bengaluru  
 
-[![GitHub](https://img.shields.io/badge/GitHub-yourusername-black)](https://github.com/yourusername)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/yourprofile)
-
+[![GitHub](https://img.shields.io/badge/GitHub-shiv--speccc-black)](https://github.com/shiv-speccc)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Shivarchan-blue)](https://www.linkedin.com/in/shivarchan-coomaran-b47b14293)
 ---
 
 ## 📜 License
@@ -250,3 +249,16 @@ MIT License — see [LICENSE](LICENSE) for details.
 - Dataset sourced from [Kaggle](https://www.kaggle.com) — Uber UBER Historical Stock Data
 - Facebook Prophet by Meta Research
 - pmdarima by Taylor G. Smith
+## Sample Visualisations
+
+### Closing Price History (2019–2025)
+![Closing Price](01_closing_price_trend.png)
+
+### 30-Day & 90-Day Moving Averages
+![Moving Averages](02_moving_averages.png)
+
+### Prophet 180-Day Forecast with Confidence Intervals
+![Prophet Forecast](09_prophet_forecast.png)
+
+### ARIMA vs Prophet Model Comparison
+![Model Comparison](10_model_comparison.png)
