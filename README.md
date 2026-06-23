@@ -5,8 +5,8 @@
 [![ARIMA](https://img.shields.io/badge/ARIMA-pmdarima-orange.svg)](https://alkaline-ml.com/pmdarima/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **B.Tech CSE – Data Science | In-House Project**  
-> **Shivarchan C (23BTRDC040) | JAIN (Deemed-to-be University)**
+> **B.Tech CSE – Data Science  
+> **Shivarchan C (23BTRDC040) 
 
 ---
 
